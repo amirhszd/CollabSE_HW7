@@ -15,3 +15,16 @@ We are using a visitor to calculate the total grade of a student given their pas
 
 - `__str__(self)`: Returns a string representation of the Teacher object.
 - `calculate_average_grade(self, student)`: Calculates the average grade of a student by accepting a visitor object.
+
+
+## Visitor Class
+### Methods
+
+#### `visit_student(self, student)`
+A method intended for subclasses to implement specific actions on a `Student` object.
+
+## AverageGradeVisitor Class
+### Methods
+
+#### `visit_student(self, student)`
+Calculates and prints the average grade of a `Student` object.
